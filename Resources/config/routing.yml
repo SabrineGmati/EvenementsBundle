@@ -1,0 +1,17 @@
+site_home:
+    path:     /test
+    defaults: { _controller: EvenementsBundle:Default:test }
+home:
+    path:     /page
+    defaults: { _controller: EvenementsBundle:Default:home }
+home_page:
+    path:     /home
+    defaults: { _controller: EvenementsBundle:Default:page }
+list_events:
+    path:     /list
+    defaults: { _controller: EvenementsBundle:Default:List }
+
+index:
+     path:     /index
+     defaults: { _controller: AppBundle:Default:acces }
+
